@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Via Whitelist Bypass: 纯 hook 无 UI -->
+    
     <application
-        android:label="Via Whitelist Bypass"
+        android:label="ViaTune"
         android:description="@string/module_description"
         android:allowBackup="false"
         android:theme="@android:style/Theme.DeviceDefault">
 
-        <!-- libxposed 模块标识 provider (api102 必需) -->
+        
         <provider
             android:name="io.github.libxposed.service.XposedProvider"
             android:authorities="${applicationId}.XposedService"

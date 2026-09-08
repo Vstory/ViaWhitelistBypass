@@ -18,8 +18,8 @@ android {
         applicationId = "com.via.whitelistbypass"
         minSdk = 26
         targetSdk = 35
-        versionName = "3.0.0"
-        versionCode = 10014
+        versionName = "3.2.0"
+        versionCode = 10030
     }
     buildTypes {
         all { signingConfig = signingConfigs.getByName("universal") }
@@ -45,4 +45,5 @@ dependencies {
     compileOnly(files("libs/libxposed/api.jar"))
     implementation(files("libs/libxposed/interface.jar"))
     implementation(files("libs/libxposed/service.jar"))
+    implementation(files("libs/pinyin4j-2.5.1.jar"))
 }

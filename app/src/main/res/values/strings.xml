@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="module_description">解除 Via 浏览器国内视频网站白名单限制（资源嗅探/广告拦截/下载/脚本）</string>
+    <string name="module_description">解除 Via 白名单限制，订阅源与脚本列表支持搜索</string>
 </resources>
